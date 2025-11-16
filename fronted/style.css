@@ -1,0 +1,31 @@
+.container {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+#todoInput {
+    width: 300px;
+    padding: 8px;
+    margin-right: 10px;
+}
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#todoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+}
+.deleteBtn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+}
